@@ -2,7 +2,7 @@ version: '3'
 
 services:
   filebeat:
-    image: tech-stack-elk-filebeat-dockerlog/filebeat:1.0.0
+    image: filebeat:1.0.0
     build:
       context: filebeat
       dockerfile: Dockerfile
